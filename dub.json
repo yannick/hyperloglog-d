@@ -1,0 +1,26 @@
+{
+	"authors": [
+		"Yannick Koechlin"
+	],
+	"importPaths": [
+		"."
+	],
+	"name": "hyperloglog-d",
+	"license": "MIT",
+	"copyright": "Copyright © 2016, Yannick Koechlin",
+	"description": "Hyperloglog bindings to redis HyperLogLog",
+
+		"configurations": [
+		{
+			"name": "lib",
+			"targetType": "sourceLibrary"
+		},
+		{
+			"name": "example",
+			"targetType": "executable",
+			"sourceFiles": ["examples/example.d"]
+		}
+        ],
+        "sourceFiles-linux-x86_64": ["extlib/x86_64-linux-gnu/hll.o"],
+        "sourceFiles-osx": ["extlib/x86_64-osx/hll.o"]
+}
