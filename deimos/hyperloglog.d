@@ -1,4 +1,4 @@
-module hyperloglog;
+module deimos.hyperloglog;
 
 import core.stdc.config;
 
@@ -15,6 +15,6 @@ struct _Anonymous_0
     ubyte[16384] registers;
 }
 
-int hll_create (HyperLogLog* hll);
-int hll_add (HyperLogLog* hll, ubyte* ele, size_t elesize);
-ulong hll_count (HyperLogLog* hll);
+int hll_create(HyperLogLog* hll);
+int hll_add(HyperLogLog* hll, ubyte* ele, size_t elesize);
+ulong hll_count(HyperLogLog* hll);
