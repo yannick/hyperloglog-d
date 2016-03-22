@@ -12,7 +12,8 @@
   "configurations": [
     {
       "name": "lib",
-      "targetType": "sourceLibrary"
+      "targetType": "sourceLibrary",
+      "sourcePaths": ["deimos"]
     },
     {
       "name": "example",
