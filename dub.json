@@ -25,9 +25,11 @@
     }
   ],
   "sourceFiles-linux-x86_64": [
+    "deimos/hyperloglog.d",
     "extlib/x86_64-linux-gnu/hll.o"
   ],
   "sourceFiles-osx": [
+    "deimos/hyperloglog.d",
     "extlib/x86_64-osx/hll.o"
   ]
 }
