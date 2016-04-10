@@ -1,3 +1,8 @@
+## DO NOT USE! 
+if multiple HyperLogLog are instanciated there are bugs and wrong results.
+
+
+
 Bindings to Redis Hyperloglog datastructure.
 
 Usage:
